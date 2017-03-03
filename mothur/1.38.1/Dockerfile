@@ -6,7 +6,6 @@ RUN set -x \
     gcc \
     gcc-c++ \
     unzip \
-    make \
     ltdl \
     readline-devel \
     ncurses-devel \
@@ -18,11 +17,10 @@ ENV MOTHUR_VER 1.38.1.1
 
 WORKDIR /opt
 
-RUN curl -OL https://github.com/mothur/mothur/archive/v$MOTHUR_VER.tar.gz \
- && tar -zxvf v$MOTHUR_VER.tar.gz \
- && cd /opt/mothur-$MOTHUR_VER \
- && make \
- && ln -s /opt/mothur-$MOTHUR_VER/mothur /usr/bin/mothur \
- && rm -rf /opt/v$MOTHUR_VER.tar.gz
+RUN curl -OL https://github.com/mothur/mothur/releases/download/v$MOTHUR_VER/Mothur.linux_64.zip \
+ && unzip Mothur.linux_64.zip \
+ && ln -s /opt/mothur/mothur /usr/bin/mothur \
+ && find /opt -name '__MACOSX' -o -name '.DS_Store' | xargs rm -rf \
+ && rm -rf Mothur.linux_64.zip
 
 CMD ["mothur"]
