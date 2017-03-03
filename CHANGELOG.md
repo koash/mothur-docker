@@ -3,4 +3,4 @@
 - Update version 0.2.0 of docker container [(6c7fbdb)](https://github.com/koash/mothur-docker/commit/6c7fbdbf6ece828c6019c48a660f4a6529657ca8)
 
 ## 0.1.0 (2017-03-04)
-- first release [(02c787a)](https://github.com/koash/mothur-docker/commit/02c787a16ccd9591840c0b8c00cdf9701187a2b0)
+- first release [(02c787a)](https://github.com/koash/mothur-docker/commit/02c787a)
