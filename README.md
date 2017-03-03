@@ -11,7 +11,6 @@ Docker container for mothur
 
 ## Installation
 ```
-$ cd setup
 $ ./build.sh
 ```
 
