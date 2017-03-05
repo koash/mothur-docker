@@ -4,7 +4,7 @@
 - Update docker container of ver. 1.39.3 [(fdde27e)](https://github.com/koash/mothur-docker/commit/fdde27e)
 
 ## 0.1.0 (2017-03-04)
-- first release [(d9aa833)][https://github.com/koash/mothur-docker/commit/d9aa833]
+- first release [(d9aa833)](https://github.com/koash/mothur-docker/commit/d9aa833)
 
 # v1.38.1
 
