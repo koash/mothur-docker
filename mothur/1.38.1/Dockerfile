@@ -3,16 +3,8 @@ FROM centos:7.3.1611
 MAINTAINER Koichi Ashizaki
 
 RUN set -x \
-    yum -y update && \
-    yum -y install \
-    gcc \
-    gcc-c++ \
-    unzip \
-    ltdl \
-    readline-devel \
-    ncurses-devel \
-    boost-devel \
-    zlib-devel \
+    yum -y update \
+ && yum -y install unzip \
  && yum clean all
 
 ENV MOTHUR_VER 1.38.1.1
