@@ -1,3 +1,6 @@
+# Changelog
+Changelog of docker container after 1.38.1 version of mothur.
+
 # v1.39.3
 
 ## 0.2.0 (2017-03-05)
