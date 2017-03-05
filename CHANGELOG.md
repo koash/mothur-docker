@@ -11,6 +11,9 @@ Changelog of docker container after 1.38.1 version of mothur.
 
 # v1.38.1
 
+## 0.2.1 (2017-03-05)
+- Update docker container (0.2.1) of mothur 1.38.1 [(6ff042b)](https://github.com/koash/mothur-docker/commit/6ff042b)
+
 ## 0.2.0 (2017-03-04)
 - Update version 0.2.0 of docker container [(6c7fbdb)](https://github.com/koash/mothur-docker/commit/6c7fbdb)
 - Update compiled release files [(f4242d9)](https://github.com/koash/mothur-docker/commit/f4242d9)
