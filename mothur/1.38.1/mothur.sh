@@ -5,5 +5,5 @@ docker \
   -it \
   -v $(pwd):/share \
   --workdir=/share \
-  koash/mothur:0.3.1 \
+  koash/mothur-1.38.1:0.3.0 \
   mothur $@
