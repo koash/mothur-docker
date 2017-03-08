@@ -3,7 +3,7 @@ Changelog of docker container after 1.38.1 version of mothur.
 
 # v1.39.4
 
-## 0.1.0 (2017-03-03)
+## 0.1.0 (2017-03-09)
 - Add docker container for mothur Version 1.39.4 [(81277c4)](https://github.com/koash/mothur-docker/commit/81277c4)
 
 # v1.39.3
