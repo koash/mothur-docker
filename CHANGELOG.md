@@ -1,5 +1,5 @@
 # Changelog
-Changelog of docker container from mothur version 1.38.1 and higher. 
+Changelog of docker container from mothur version 1.38.1 or higher. 
 
 # v1.39.4
 
